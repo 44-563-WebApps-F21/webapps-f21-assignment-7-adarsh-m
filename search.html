@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html> 
+    <header>Animal hunt by Adarsh Munnanuru</header>
+    <style>
+header{
+      display: flex;  flex-direction:row;
+      background-color: skyblue;
+      color:black;
+      border: 4px solid red;
+      font-size: xx-large;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.flex-container > div {  /*div children of the flex container*/
+  background-color: #f1f1f1; 
+  margin: 10px;  padding: 20px;  font-size: 30px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) { 
+	 .flex-container{
+		 flex-direction:column;
+		 background-color: pink;
+	  }
+	}
+    p{
+        background-color: white;
+        color: black;
+    }
+    p#tries{
+        background-color: yellow;
+        color: orangered;
+
+    }
+    p#distance{
+        background-color:indigo;
+        color: violet;
+    }
+    #row {
+                    position: absolute;
+                     width: 210px; height: 100%;
+                    border: 1px solid #000
+                    }
+
+                    .row {
+    display: inline-block;
+    border: solid 1px yellowgreen;
+    width: 100px;
+}
+</style>
+</head>
+<body>
+    <p>Click on the squares to search for wild life</p>
+    <p id="tries">Number of tries is zero</p>
+    <p id="distances">“Distance is unknown</p>
+    <div class="container">
+        <div class="row">
+            <img src="plant.jpg" height="100" width="100">
+            <img src="plant.jpg" height="100" width="100">
+            <img src="plant.jpg" height="100" width="100">
+            <img src="plant.jpg" height="100" width="100">
+
+        </div>
+
+        <div class="row">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+        </div>
+        <div class="row">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+        </div>
+        <div class="row">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+        </div>
+        <div class="row">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+
+        </div>
+        <div class="row">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+          <img src="plant.jpg" height="100" width="100">
+        </div>
+    </div>
+</body>
+</html>
